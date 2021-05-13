@@ -6,6 +6,6 @@ files:
 
 hooks:
   ApplicationStart:
-    - location: pm2 start app.js
+    - location: appstart.sh
       timeout: 300
       runas: root
