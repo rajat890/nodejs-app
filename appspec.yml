@@ -6,6 +6,6 @@ files:
 
 hooks:
   ApplicationStart:
-    - location: /root/.nvm/versions/node/v16.1.0/bin/pm2 start app.js
+    - location: pm2 start app.js
       timeout: 300
       runas: root
