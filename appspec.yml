@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /root/nodejs_app
+    destination: /codedeploy
+hooks:
+  ApplicationStart:
+    - location: codedeploy/appstart.sh
+      timeout: 300
+      runas: root
