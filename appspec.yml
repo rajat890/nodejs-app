@@ -6,6 +6,6 @@ files:
 
 hooks:
   ApplicationStart:
-    - location: /appstart.sh
+    - location: ./appstart.sh
       timeout: 300
       runas: root
