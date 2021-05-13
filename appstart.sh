@@ -1,2 +1,2 @@
 #!/bin/bash
-pm2 start app.js
+/usr/bin/pm2 start app.js
